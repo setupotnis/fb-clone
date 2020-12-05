@@ -19,12 +19,12 @@ function Header() {
                 <img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" alt=""/>
                 <div className="header__input">
                     <SearchIcon />
-                    <input type="text"/>
+                    <input placeholder='Search Facebook'type="text"/>
                 </div>
             </div>
 
             <div className="header__center">
-                <div className="header__option">
+                <div className="header__option header__option--active">
                     <HomeIcon fontSize="large"/>
                 </div>
                 <div className="header__option">
@@ -41,12 +41,12 @@ function Header() {
                 </div>
             </div>
 
-            <div classname="header__right">
+            <div className="header__right">
                 <div className="header__info">
-                    <Avatar />
-                    <h4>sssssetu</h4>
+                    <Avatar src="https://scontent.fyyz1-2.fna.fbcdn.net/v/t1.0-9/18835502_1866130286962050_1411904463507585596_n.jpg?_nc_cat=110&ccb=2&_nc_sid=a4a2d7&_nc_ohc=Ijoo9k7zr5wAX9uo9cE&_nc_ht=scontent.fyyz1-2.fna&oh=d4a9bbadfa1b90794e1e863f1323dd11&oe=5FF00752"/>
+                    <h4>Setu Potnis</h4>
                 </div>
-
+                
                 <IconButton>
                     <AddIcon />
                 </IconButton>
