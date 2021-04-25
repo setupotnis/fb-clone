@@ -1,5 +1,5 @@
 import React from "react";
-import "./Widgets.css";
+import "../CSS/Widgets.css";
 
 function Widgets() {
   return (
@@ -9,10 +9,10 @@ function Widgets() {
         width="340"
         height="100%"
         style={{ border: "none", overflow: "hidden" }}
-        scrolling='no'
-        frameborder='0'
-        allowTransparency='True'
-        allow='encrypted-media'
+        scrolling="no"
+        frameborder="0"
+        allowTransparency="True"
+        allow="encrypted-media"
       ></iframe>
     </div>
   );
